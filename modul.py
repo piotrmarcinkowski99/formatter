@@ -11,8 +11,8 @@ TextFileManager.space = space
 
 parser = argparse.ArgumentParser(description='The program which converts text indentation (space to tabs and reverse).')
 
-helper_from = "select the type of character that will be converted"
-helper_replace = "if there is a param, the script does not make a save copy"
+helper_from = "determines the type of character that will be converted"
+helper_replace = "with this param, the formatter does not make a save copy of file"
 helper_tab_chars = "optional param which determines the number of space which replace a single tab character"
 
 parser.add_argument('--from', '-f', choices=['tabs', 'spaces'], help=helper_from, required=False, type=str)
