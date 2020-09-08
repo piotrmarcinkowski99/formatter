@@ -7,6 +7,28 @@
 python tests/test.py
 ```
 
+#### To get coverage of tests:
+1. Install requirements.txt 
+    ```shell script
+    pip install -r requirements.txt
+    ```
+2. Get coverage:
+    ```shell script
+    coverage run -m unittest discover
+    ```
+3. Display statistics:
+
+    In the terminal
+    ```shell script
+    coverage report -m
+    ```
+    In browser 
+    ```shell script
+    coverage html
+    ```
+
+
+
 #### To run formatter:
 ```shell script
 python -m modul -f [tabs/spaces] -r -t [length of a tab character]
