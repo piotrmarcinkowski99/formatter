@@ -2,6 +2,9 @@
 
 ### Created by Piotr Marcinkowski
 
+### Description:
+- The main point of this application is the possibility of formatting files with extension "txt". The program replaces spaces to tabs and vice versa. 
+
 #### To run tests:
 ```shell script
 python tests/test.py
